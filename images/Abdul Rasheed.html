@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://127.0.0.1:5500/Calculator.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdul Rasheed</title>
+    <link rel="stylesheet" href="./Abdul Rasheed_files/style.css">
+</head>
+<body data-new-gr-c-s-check-loaded="14.1086.0" data-gr-ext-installed="">
+   <header class="header">
+    <a href="http://127.0.0.1:5500/index.html">
+      <img src="./Abdul Rasheed_files/logo.png" alt="Circle logo" class="logo"> 
+    <img src="./Abdul Rasheed_files/abdul-rasheedText.png" alt="Text logo" class="logo-text"> 
+    </a>
+    
+  
+  <nav class="navbar"> 
+  <ul class="navbar-lists">
+    <li><a href="http://127.0.0.1:5500/index.html" class="navbar-link home-link">Home</a></li>
+    <li><a href="http://127.0.0.1:5500/about.html" class="navbar-link about-link">About</a></li>
+    <li><a href="http://127.0.0.1:5500/contact.html" class="navbar-link contact-link">Contact</a></li>
+    <li><a href="http://127.0.0.1:5500/service.html" class="navbar-link services-link">Services</a></li>
+    </ul>
+
+  </nav>
+</header>
+<div class="form">
+  <center><br><h1 class="formHeader">Calculator</h1><br></center>
+  <center><br><input class="form-text" id="firstNoID" type="number" placeholder="Enter First Number"><br></center>
+  <center><br><input class="form-text" id="secNoID" type="number" placeholder="Enter Second Number"><br></center>
+  <center>
+   
+  </center>
+  <br> <center><button class="btn" id="calculateID" onclick="Calculate()">Calculate</button></center><br>
+  <br><center><h3 id="resultID">The Result for substraction between 3 and 56 is -53</h3></center><br>
+
+</div>
+<script src="./Abdul Rasheed_files/index.js.download">
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
