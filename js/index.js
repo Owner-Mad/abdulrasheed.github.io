@@ -90,5 +90,4 @@ function jsc(){
   console.log("On-click action even performed succesfully seems that js is working with current html file of the document visible |!")
 
 }
-a = document.getElementById("top-cover");
-a.style.height=400;
+ 
