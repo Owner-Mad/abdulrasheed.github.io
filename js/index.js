@@ -84,3 +84,9 @@ document.addEventListener("keyup", (event) => {
     Calculate();
   }
 });
+
+ 
+function jsc(){
+  console.log("On-click action even performed succesfully seems that js is working with current html file of the document visible |!")
+
+}
