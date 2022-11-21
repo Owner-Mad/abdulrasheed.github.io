@@ -7,6 +7,7 @@
   font-family: "work sans", sans-serif;
 }
 
+
 :root {
   --heading: #000000;
   --para: #777777;
@@ -96,6 +97,18 @@ li {
   font-weight: 550;
 }
 
+
+@keyframes myAnim{
+  from{
+    width: 37rem;
+    height: 3.5rem;
+  font-size: 0px;
+  }to{
+    width: 40rem;
+    height: 4rem;
+  }
+}
+
 .btn {
   width: 40rem;
   height: 4rem;
@@ -107,6 +120,9 @@ li {
   background: var(--gradient);
   border-width: 0;
   border-radius: 20px;
+  /* animation-name: myAnim; */
+  animation-duration: 0.1s; 
+
 }
 
 .form {
